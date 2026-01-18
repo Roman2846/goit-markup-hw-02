@@ -1,0 +1,150 @@
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: #4d5ae5;
+}
+
+.accent {
+  color: #4d5ae5;
+}
+
+.accent:hover,
+.accent:focus {
+  color: #2e2f42;
+}
+
+.section-title {
+  background-color: #2e2f42;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  text-align: center;
+  color: white;
+}
+
+.title-button {
+  color: white;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: inherit;
+}
+
+.title-button:hover,
+.title-button:focus {
+  color: #4d5ae5;
+  background-color: white;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: white;
+}
+
+.team-person {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.team-specialty {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.portfolio-app {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.portfolio-marketing {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #4d5ae5;
+}
+
+.footer-accent {
+  color: #4d5ae5;
+}
+
+.footer-accent:hover,
+.footer-accent:focus {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
