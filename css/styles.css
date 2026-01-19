@@ -1,12 +1,10 @@
 /* font-family: "Raleway", sans-serif; */
 /* font-family: "Roboto", sans-serif; */
-* {
-  box-sizing: border-box;
-}
 
 body {
-  padding: 15px;
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: white;
 }
 
 button {
@@ -51,6 +49,26 @@ ul {
   color: #2e2f42;
 }
 
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  font-style: normal;
+}
+
+.address:hover,
+.address:focus {
+  color: #2e2f42;
+}
+
 .section-title {
   background-color: #2e2f42;
 }
@@ -58,7 +76,8 @@ ul {
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: white;
 }
@@ -74,8 +93,22 @@ ul {
 
 .title-button:hover,
 .title-button:focus {
-  color: #4d5ae5;
-  background-color: white;
+  color: white;
+  background-color: #404bbf;
+}
+
+.features-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.features-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
 }
 
 .team {
